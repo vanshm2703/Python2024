@@ -1,0 +1,77 @@
+->OOPS in Python
+    ->To map with real world scenarios, we starting using object in code.
+    ->this is called object oriented programming.
+    ->classes and objects are used in it.
+    ->objects are the real world entities.
+    ->before making an object we must create a class.
+
+->Class & object in python
+    ->classes are the blue print for creating objects.
+    ->for eg.->#creating class
+        class student:
+            name="vansh mehta"
+
+    ->#creating object(instance of class)
+        s1=student()
+        print(s1.name)
+    
+    ->Data store in a class are called attributes.(also called variables)
+
+->Constructor (init_function)
+    ->invokes at object creation
+    ->all classes have function called _init_(), which is always executed when the object is been initiated.
+    
+
+->Classes and instances attributes
+    ->class.attr
+    ->obj.attr
+    ->every object has its own name
+    ->objects occupy space in the memory
+    ->common things are wriiten as a class attributes
+
+->Methods
+    ->methods are functions that belongs to objects.
+    ->classes can have data(class attributes) and methods
+    ->functions written in a class are called methods
+
+    ->for eg. #creating class
+        ->class student:
+            def _init_(self,fullname)
+                self.name=fullname
+
+            def hello(self):
+                print("hello",self.name)
+
+            #creating object
+            s1=student("karan")
+            s1.hello()
+
+
+    ->static methods
+        ->methods that dont use the self parameter(work at class level)
+        ->example...  class student:
+                            @static method              #decorator
+                            def college():
+                                print ("abc college")
+            ->decorators allows us to wrap another function in order to extend the behaviour of wrapped function,without permanently modifying it.
+
+**note-when we were using self we were working on an object level but in case of static be are working on call level
+
+
+
+->IMPORTANT(pillars of opps)
+
+->Abstraction
+   -> hiding the implementation details of class and only showing the essential features to th user.
+            ->GIVING THE NESSECESSERY AND HIDING THE UNESSECERRY details
+            ->EG Car manufacturer hides engine and shows essentail things are shown to the user
+
+->Encapsulation
+    ->wrapping data and functions into a single unit(object)
+    ->while making class we are Encapsulating thr attributes and methods
+
+->Inharitance
+    
+
+
+->Polymorphism

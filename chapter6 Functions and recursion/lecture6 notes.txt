@@ -1,0 +1,23 @@
+1->Functions in python
+    ->block of statements that perform a specific task.
+    ->def func_name(parameter1,parameter2)
+     return val
+    ->decreases redundency
+    ->there are 2 types of Functions -a.Built in Functions -print(),len(),type(),range()
+                                    -b.User defined Functions -writen by User
+
+1A.->Default parameters
+    ->Assigning a default value to parameter,which is used when no arguments is passed
+
+
+2.Recursion 
+    ->when a funcion calls itself
+    ->for eg.print n to 1 backwords
+    ->def show(n):
+        if(n==0):
+            return
+        print(n)
+        show(n-1)
+    ->call stack(for detail)
+    
+    

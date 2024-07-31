@@ -1,0 +1,42 @@
+1.Lists
+  ->A built in data type that stores set of values
+  ->it can store the elements of different data types
+  ->eg. marks=[87,64,33,95,76] #marks [0],marks[1]...
+     ->student=["karan",85,"delhi"] #student[0],student[1]...
+       ->student[0]="arjun" #allowed in python
+       ->len(student) #returns length
+  ->strings are immutable and lists are mutable for eg indexing in str can not be changed 
+
+1 A. List Slicing
+  ->similar to string Slicing
+  ->list_name[starting_idx : ending_idx] #ending idx is not included
+  ->also have -ve indexing same as str
+
+1 B.List Methods
+  ->list[1,2,3]
+  ->list.append(4)#adds one element at the end [2,1,3,4]
+  ->list.sort() #sorts in accending order
+  ->list.sort(reverse=True)
+  ->list.reverse() #reverse list [3,1,2]
+  ->list.insert(idx,el) #insert element at index 
+  ->list.remove(1) #removes first occurence of element
+  ->list.pop(idx) #remove element at idx
+  
+
+
+2.Tuples in python
+  ->a built-in data type let us create immutable sequence of values
+  ->tup=(87,64,33,95,76)
+  ->tup[0]=43 #not allowed
+  ->tup1=()
+  ->tup2=(1,2,3)
+
+2B->Tuple Slicing
+  ->same as list and list Slicing
+
+
+2C->Tuple Methods
+  ->tup=(2,1,3,1)
+  ->tup.index(el) #returns index of first occurrence
+  ->tup.count(el) #counts total occurrences of the element
+  

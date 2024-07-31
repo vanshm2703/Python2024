@@ -1,0 +1,49 @@
+PYTHON 
+->IS SIMPLE AND EASY
+->OPEN SOURCE
+->HIGH LEVEL LANGUAGE
+->DEVELOPED BY GUIDO VAN ROSSUM
+->PORTABLE
+->py extension
+-> case sensitive language
+
+FIRST PROGRAM
+->PRINT (function)
+
+input->code(py)->output
+
+1.Python character set
+->letter-A TO Z,a to z
+->Digit- 0-9
+->special symbols- +-*/etc.
+->white spaces- blank spaces, tab ,carraige return newline form feed
+->other characters - python can process all ASCII and Unicode characters as part of data or literals.
+
+2.VARIABLES
+name="Vansh"
+age=23
+price=25.99
+
+3. data types
+->integers +ve -ve ,0
+->string  " "  ' '  
+->float
+->boolean
+->none
+
+4.comments- #single line,  """   """ multi line comments
+
+5.operators
+->airthmatic
+->conditional 
+->assignment
+->logical operator
+
+6. Type Conversion
+->type conversion (automatic)(impicit)
+->type casting(manually)(explecit)
+
+7.input in python
+->input()  function
+eg. input("enter your name:")
+it always covert into string so, for appropriate data type type casting is used

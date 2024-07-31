@@ -1,0 +1,36 @@
+1.string
+->Data type stores series of characters
+->escape secquence characters used for formating. eg- Tab nextline 
+A->basic operators
+    ->concatination  -> "hello"+ "world" = "helloworld"
+    ->length of str ->  len(str)
+    
+B->indexing- means the charters get positions that starts with index 0 and to so on
+   ->helps in access characters
+   ->we can not do assignment using indexing eg. str[5]=10  this is not allowed
+
+C->Slicing- Accessing parts of a string
+  ->str[starting_idx : ending_idx] note-ending idx is not included
+  ->mostly used in machine learning
+  ->Slicing in python support negative indexing 
+
+D->string functions
+  ->str= "i am a coder"
+  ->str.endsWith("er.")#returns true if string ends with substr
+  ->str.capitalize()#capitalize first character
+  ->str.replace(old,new) #replaces all occurences of old with new
+  ->str.find(word) #returns 1st index of first occurences
+  ->str.count("am") #counts the ocuurence of substr in string
+
+E->Conditional Statements
+  ->if-elif-else(syntax)
+  ->eg. if(Condition):
+           Statement1
+        elif(Condition): #elif is else if
+           Statement2
+        else:
+           StatementN
+    ->difference between if and elif is that it will always check if Statement and elif only check if (if) Condition is not met
+    ->indentation is important in python
+    
+F-> Nesting

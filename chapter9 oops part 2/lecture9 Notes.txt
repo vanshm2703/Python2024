@@ -1,0 +1,55 @@
+->del keyword
+    ->used to delete objects properties or object itself.
+       -> del s1.name
+       -> del s1
+
+->private(like) attributes & methods
+    ->concetual implementation
+        ->Private attributes and methods are meant to be used only with in the class and are not accesible from outside the class.
+
+->Inheritance
+    ->When one class(child/derived) derives the properties and methods of another class(parent/base).
+        ->class car:
+            ....
+        class toyotaCar(car):
+            ......
+    ->types
+        ->Single Inheritance  (base->derived)
+        ->Multilevel Inheritance (base->derived_frombase->derived_fromderived)
+        ->Multiple Inheritance (base1 and base2->derived class)
+
+    ->super method
+        ->super() method is used to access methods of parent class
+
+    ->class method
+        ->A class method is bound to the class and receives the class as an implicit first argument.
+        note-static method can't access or modify class state and generally for utility.
+
+        ->class Student: #example
+            @class method #decorator
+            def college(cls):
+                pass
+methods(recap)
+->static method- unchangable methods
+->class method(cls) ->class attributes used
+->instance method(self) ->use of instance attributes
+
+->Property
+    ->we use @property decorator on any method in the class to use the method as a property
+
+
+->polymorphism: Operator overloading
+    ->When same operator is allowed to have different meaning according to the context.
+
+    operator and dunder functions
+    a+b #addition       a.__add__(b)
+    a-b #subtraction    a.__sub__(b)
+    a*b #Multiplication a.__mul___(b)
+    a/b #division       a.__truediv____(b)
+    a%b #mod            a.__mod____(b)
+
+    #complex no= 1i(real)+3j(imaginary)
+    2i+5j(complex numbers are used in voice recognision system)
+
+    
+

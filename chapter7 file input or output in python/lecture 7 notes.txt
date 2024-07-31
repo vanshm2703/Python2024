@@ -1,0 +1,31 @@
+1.File I/O
+    ->python can be used to perform operations on file.
+    ->ram volatile
+    ->types of all files(they all bits in th system)
+        ->1. Text Files: .txt , docx , .log etc
+        ->2. Binary Files: .mp4 , .mov , .png , .jpeg etc.
+
+1.A Open,read & close file
+    ->we have to open a file before reading or writing
+        ->f=open("file_name","mode") #mode can be read mode or write mode
+
+   ->reading file
+        ->data=f.read() #read entire file
+        ->data=f.readline() #reads one line at a time
+    
+    ->writing to a File
+        ->f=open("demo.txt","w") #write
+          f.write("this is the new line") #overwrites the entire file
+        ->f=open("demo.txt","a") #append (add at the end)
+          f.write("this is a new line") #adds to the file
+
+->with syntax 
+    ->with open("E:\\python\\chapter7 file input or output in python\\demo.txt","r") as f:
+        data=f.read()
+
+->deleting a file
+    ->using the os module
+    ->Module(like a code library)is a file written by another programmer that generally has a Function we can use.
+        import os
+        os.remove(filename)
+    

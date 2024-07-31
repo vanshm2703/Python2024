@@ -1,0 +1,46 @@
+1.Dictioaries in python
+    ->Dictionariaes are used to store data values in key:value pairs
+    ->they are unordered,mutable(changable) & don't allow duplicate Keys
+    ->dict={
+        "name": "vansh",
+        "cgpa": 8.1,
+        "marks": [98,97,95],
+    }
+    ->dict[name],dict["cgpa"],dict["marks"]
+    ->dict["key"] = "value" #to assign or add new
+    ->key can be any thing a number a float number or string
+
+1A.Nested Dictionariaes
+    ->student={
+        "name": "Vansh"
+        "score":{
+            "chem": 98,
+            "phy":95,
+            "math:94,
+        }
+    }
+    ->student["score"]["math"]
+
+1B.Dictioaries Methods
+    ->myDict.Keys() #return all Keys
+    ->myDict.values() #return all values
+    ->myDict.items() #return all (key,val)pair as tuples
+    ->myDict.get("key") #return the key according to value 
+    ->myDict.update(newDict) #insert the specified items to dictionary
+
+2.Set in python
+    ->Collection of unordered items (no index)
+    ->each element must be unique and immutable
+    ->nums={1,2,3,4}
+    ->set2={1,2,2,2} #it will store 2 once to {1,2}
+    ->set can not hold list and dictionary
+    ->set is mutable but set elements are immutable
+
+2A. SET Methods
+    ->set.add(el) #adds an element
+    ->set.remove(el) #removes the element
+    ->set.clear() #empties the set
+    ->set.pop() #removes a rendom value
+    ->set.union() #combines both set values & return new
+    ->set.intersection(set2) #combines common values & returns new 
+    
